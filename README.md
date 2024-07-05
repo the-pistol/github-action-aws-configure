@@ -1,20 +1,7 @@
 > :warning: **This is a *public* repository** :warning:
 
-Custom Github Actions must be in a public repository (Except when using Github Enterprise which allows private repositories)
+### DEPRECATED
 
-### Github Action - AWS Configure
+moved to https://github.com/zitcha
 
-This is a custom Github Action to configure AWS Credentials for a Github Workflow. 
-
-#### Example
-
-```yaml
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Configure AWS credentials
-        uses: the-pistol/github-action-aws-configure@main
-        with:
-          role-to-assume: arn:aws:iam::123456789999:role/my-iam-role
-```
+delete this once all references to this repo are removed.
